@@ -754,8 +754,9 @@ nav.navbar .navbar-toggle.collapsed .bottom-bar {
   text-align: center;
   font-weight: 800;
   line-height: 1em;
-  font-size: 120px;
-  padding: 6px 0 6px 0;
+  font-size: 75px;
+  height: 120px;;
+  padding: 25px 0 25px 0;
 }
 #slider-full .calendar .month {
   border-top: 1px solid #041A39;
