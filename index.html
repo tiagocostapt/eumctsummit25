@@ -224,8 +224,12 @@
 		<h3>Speakers</h3>
 		<div class="container">		
 			<div class="swiper-container row" id="speakers-slider">
-				<p>The speaker list will be available as we get closer to the event.</p>
-				<p>Call for Speakers open until 30th September: <a href="https://e.runevents.net/european-mct-summit-2025/speakers" target="_blank">https://e.runevents.net/european-mct-summit-2025/speakers</a></p>
+				<script src="https://e.runevents.net/assets/external/polyfills.js"></script>
+				<script src="https://e.runevents.net/assets/external/runtime.js"></script>
+				<script src="https://e.runevents.net/assets/external/main.js"></script>
+
+				<runevents-speakers slug="european-mct-summit-2025"checkout-url="https://e.runevents.net" 
+					api-url="https://api.runevents.net/api" search-position="none" />
 			</div>
 		</div>
 	</section>
